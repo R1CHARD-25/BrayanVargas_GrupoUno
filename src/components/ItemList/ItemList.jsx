@@ -1,5 +1,5 @@
 import Item from "../Item/Item"
-import { getProducts } from "../../data/asyncMock"
+import { getProducts } from "../../data/asyncMock.jsx"
 import { useEffect, useState } from "react"
 import Loading from "../Loading/Loading";
 
