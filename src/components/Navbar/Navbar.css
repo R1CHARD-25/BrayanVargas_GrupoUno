@@ -1,0 +1,14 @@
+
+.navbar-search button {
+    padding: 10px 10px;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.navbar-search button:hover {
+    background-color: #ff4500;
+}
