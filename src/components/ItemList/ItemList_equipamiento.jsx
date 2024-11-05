@@ -1,5 +1,5 @@
 import Item_equipamiento from "../Item/Item_equipamiento.jsx"
-import { getProducts_equipamiento } from "@/data/asyncMock_equipamiento.jsx"
+import { getProducts_equipamiento } from "../../data/asyncMock_equipamiento.jsx"
 import { useEffect, useState } from "react"
 import Loading from "../Loading/Loading";
 
