@@ -1,4 +1,4 @@
-import ItemList_equipamiento from "../../components/ItemList/ItemList_equipamiento.jsx";
+import ItemList from "../../components/ItemList/ItemList.jsx";
 
 export default function Equipamiento() {
     return (
@@ -8,7 +8,7 @@ export default function Equipamiento() {
 
         <h1 className="text-2xl text-white text-center px-220px" >EN ESTE APARTADO ENCONTRARÁS EQUIPAMIENTO PARA MONTAÑA!!
         </h1>
-    <ItemList_equipamiento/>
+    <ItemList/>
 
 </>
 )

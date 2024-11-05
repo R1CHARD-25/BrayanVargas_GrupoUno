@@ -7,7 +7,7 @@ import Equipamiento from "./components/Equipamiento/Equipamiento.jsx";
 import Calzado from "./components/Calzado/Calzado.jsx";
 import ItemDetail from "./components/ItemDetail/ItemDetail.jsx";
 import Logo_nav from "../public/montañaspng.png";
-import ItemDetail_equipamiento from "@/components/ItemDetail/ItemDetail_equipamiento.jsx";
+
 import Nosotros from "@/components/Nosotros/Nosotros.jsx";
 import ProductsCategory from './components/Category/Category.jsx';
 import Terms from './components/Terms/Terms.jsx'
@@ -35,7 +35,7 @@ function App() {
                           <Route path="/Calzado" element={<Calzado/>}/>
                           <Route path='/products/:productId' element={<ItemDetail />} />
                           <Route path='/category/:categoryId' element={<ProductsCategory />} />
-                          <Route path='/products_equipamiento/:productId' element={<ItemDetail_equipamiento />} />
+                          <Route path='/products_equipamiento/:productId' element={<ItemDetail />} />
 
               </Routes>
 
