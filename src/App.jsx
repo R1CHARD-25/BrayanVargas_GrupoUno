@@ -10,6 +10,7 @@ import Logo_nav from "../public/montañaspng.png";
 import ItemDetail_equipamiento from "@/components/ItemDetail/ItemDetail_equipamiento.jsx";
 import Nosotros from "@/components/Nosotros/Nosotros.jsx";
 import ProductsCategory from './components/Category/Category.jsx';
+import Terms from './components/Terms/Terms.jsx'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
 
                           <Route path="/equipamiento" element={<Equipamiento/>}/>
                           <Route path="/Nosotros" element={<Nosotros/>}/>
+                          <Route path="/Terms" element={<Terms/>}/>
                           <Route path="/Calzado" element={<Calzado/>}/>
                           <Route path='/products/:productId' element={<ItemDetail />} />
                           <Route path='/category/:categoryId' element={<ProductsCategory />} />
