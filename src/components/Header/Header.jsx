@@ -36,13 +36,7 @@ function Header_componente() {
                     </li>
 
 
-
-                    <li className="estilo_lista_vacio"><Link to="/Nosotros"
-                                                             className="estilo_bloque hover padding_lateral ">Nosotros</Link>
-                    </li>
-
-
-                    <li className="estilo_lista_vacio"><Link to="/Equipamiento"
+                    <li className="estilo_lista_vacio"><Link to="/Category/equipamiento"
                                                              className="estilo_bloque hover padding_lateral"
                     >Equipamiento</Link></li>
 
@@ -50,8 +44,13 @@ function Header_componente() {
                     <li className="estilo_lista_vacio"><Link to="/Category/zapato"
                                                              className="estilo_bloque hover padding_lateral"
                     >Calzado</Link></li>
-                    <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
-                                                          href={vacio}>vestimenta</a></li>
+                    <li className="estilo_lista_vacio"><Link to="/Category/parca"
+                                                             className="estilo_bloque hover padding_lateral"
+                    >Vestimenta</Link></li>
+                    <li className="estilo_lista_vacio"><Link to="/Nosotros"
+                                                             className="estilo_bloque hover padding_lateral ">Nosotros</Link>
+                    </li>
+
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
                                                           href={vacio}>Ayuda</a></li>
 
