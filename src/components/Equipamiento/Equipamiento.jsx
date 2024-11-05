@@ -1,4 +1,4 @@
-import ItemList_equipamiento from "@/components/ItemList/ItemList_equipamiento.jsx";
+import ItemList_equipamiento from "../../components/ItemList/ItemList_equipamiento.jsx";
 
 export default function Equipamiento() {
     return (
