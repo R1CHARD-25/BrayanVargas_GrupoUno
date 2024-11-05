@@ -117,6 +117,27 @@ export const products = [
         img: 'https://doite.cl/media/catalog/product/6/5/65d3373ba9934641c9b5242da19d31.jpg?width=300&height=380&canvas=300,350&quality=80&bg-color=255,255,255&fit=bounds',
         sizes:["M","s","L"],
     },
+    {
+        id: 13,
+        name: 'Cortaviento Impermeable',
+        price: 109.995,
+        despcription: 'La chaqueta Storm 2Layer ofrece impermeabilidad (10K), transpirabilidad (20K), costuras selladas, tecnología anti manchas NanoPlus, capucha desmontable y forro de malla.',
+        stock: 5,
+        category: 'parcas',
+        img: 'https://doite.cl/media/catalog/product/9/0/90e82b0f2198244d7eb7a6f6c339f0.jpg?width=300&height=380&canvas=300,350&quality=80&bg-color=255,255,255&fit=bounds',
+        sizes:["M","s","L"],
+    },
+    {
+        id: 14,
+        name: 'Cortaviento Impermeable Lexis Negra',
+        price: 2.890599,
+        despcription: 'La chaqueta Lexis, con tela 2.5 Layer, ofrece impermeabilidad (10K), transpirabilidad (5K) y tecnología TechnoActive®. Cuenta con costuras selladas, cierres waterproof, gorro y diseño bicolor',
+        stock: 5,
+        category: 'parcas',
+        img: 'https://doite.cl/media/catalog/product/2/3/23b72d6709edf049e78eebab9c7fa5.jpg?width=300&height=380&canvas=300,350&quality=80&bg-color=255,255,255&fit=bounds',
+        sizes:["M","s","L"],
+    },
+
 
 
 

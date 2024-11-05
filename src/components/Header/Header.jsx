@@ -51,7 +51,7 @@ function Header_componente() {
                                                              className="estilo_bloque hover padding_lateral"
                     >Calzado</Link></li>
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
-                                                          href={vacio}>Indumentaria</a></li>
+                                                          href={vacio}>vestimenta</a></li>
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
                                                           href={vacio}>Ayuda</a></li>
 
