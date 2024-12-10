@@ -7,10 +7,9 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'Mountain': "url('/public/fondo.jpeg')",
-				animation: ['motion-reduce'],
-			}
+				'Mountain': "url('/alto.jpg')",
+			},
 		},
 	},
-	plugins:[],
+	plugins: [],
 }
